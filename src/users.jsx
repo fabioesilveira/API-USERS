@@ -43,25 +43,32 @@ function Users() {
 
     return (
         <>
-            <input type="text" value={search} onChange={handleChange} />
+            <div className="div-header">
+                <div className="elements-header">
 
-            <button onClick={handleClick}>SEARCH</button>
+                    <input className="input-header" type="text" value={search} onChange={handleChange} />
 
-            <div class="dropdown">
-                <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    id="dropdownMenuButton"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                >
-                    City
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    {city.map((e) => (
-                         <li><a onClick={() => handleSelectedCity(e)} class="dropdown-item" href="#">{e}</a></li>
-                    ))}
-                </ul>
+                    <button className="btn-input" onClick={handleClick}>SEARCH</button>
+
+
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-secondary dropdown-toggle"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            City
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            {city.map((e) => (
+                                <li><a onClick={() => handleSelectedCity(e)} class="dropdown-item" href="#">{e}</a></li>
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+
             </div>
 
             <div className="container mt-4">

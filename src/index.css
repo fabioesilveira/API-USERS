@@ -1,0 +1,19 @@
+.div-header{
+    height: 80px;
+    width: 100%;
+   
+}
+
+.elements-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.input-header{
+    width: 300px;
+}
+
+.btn-input{
+    margin-right: 5px;
+}
