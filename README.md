@@ -1,8 +1,25 @@
-# React + Vite
+# API-USERS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+API Users is a mock project that displays a table of users and their information. You can filter users by name or the city they reside in. It uses an API with its own user database.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Technologies used
+
+CSS, Bootstrap, React.Js. API end Point https://jsonplaceholder.typicode.com/users
+
+## Credits
+
+Project By Fabio Silveira.
+
+## Deployed Site
+
+![Screenshot of Deployed Website](src/assets/Screenshot1.png)
+
+![Screenshot of Deployed Website](src/assets/Screenshot2.png)
+
+![Screenshot of Deployed Website](src/assets/Screenshot3.png)
+
+
+[Live Demo Link]()
