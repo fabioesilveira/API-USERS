@@ -18,8 +18,6 @@ CSS, Bootstrap, React, React Router. API end Point https://jsonplaceholder.typic
 
 ![Screenshot of Deployed Website](src/assets/Screenshot1.png)
 
-![Screenshot of Deployed Website](src/assets/Screenshot2.png)
-
 ![Screenshot of Deployed Website](src/assets/Screenshot3.png)
 
 
