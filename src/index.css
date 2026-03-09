@@ -1,19 +1,118 @@
-.div-header{
+body {
+    cursor: pointer;
+}
+
+.div-header {
     height: 80px;
     width: 100%;
-   
+
 }
 
-.elements-header{
+.elements-header {
     display: flex;
     justify-content: center;
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
-.input-header{
+.input-header {
     width: 300px;
 }
 
-.btn-input{
+.btn-input {
     margin-right: 5px;
+}
+
+.h1-home {
+    margin-bottom: -30px;
+}
+
+.user-page {
+    background-color: #f5f6f8;
+    min-height: 100vh;
+    padding: 30px 20px;
+}
+
+.user-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.user-card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    margin-bottom: 24px;
+}
+
+.user-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    border: none;
+    background-color: #e9ecef;
+    color: #222;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.tab-btn:hover {
+    background-color: #dfe3e7;
+}
+
+.tab-btn.active {
+    background-color: #212529;
+    color: white;
+}
+
+.tab-btn.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.user-header h1 {
+    margin: 0 0 8px;
+    font-size: 2rem;
+}
+
+.user-header p {
+    margin: 0;
+    color: #555;
+    font-size: 1rem;
+}
+
+.section-title {
+    margin-bottom: 18px;
+    font-size: 1.6rem;
+    color: #212529;
+}
+
+.content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 18px 20px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+.content-card h4 {
+    margin: 0 0 10px;
+    color: #212529;
+    text-transform: capitalize;
+}
+
+.content-card p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
 }
