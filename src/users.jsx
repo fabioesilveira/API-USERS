@@ -50,7 +50,7 @@ function Users() {
     }
 
     return (
-        <div className="container mt-4">
+        <div className="container div-users">
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <h1 className="h1-home">User Table</h1>
 
